@@ -133,12 +133,12 @@ $(info -- KSU_NEW_DCACHE_FLUSH: $(KSU_NEW_DCACHE_FLUSH))
 
 KSU_IS_PR_BUILD ?= 0
 ifeq ($(KSU_IS_PR_BUILD),0)
-KSU_PACKAGE_NAME ?= com.kowx712.supermanager
+KSU_PACKAGE_NAME ?= com.snapmint.customerapp
 else
-KSU_PACKAGE_NAME ?= com.kowx712.supermanager
+KSU_PACKAGE_NAME ?= com.snapmint.customerapp
 endif
-KSU_EXPECTED_SIZE ?= 0x375
-KSU_EXPECTED_HASH ?= 484fcba6e6c43b1fb09700633bf2fb4758f13cb0b2f4457b80d075084b26c588
+KSU_EXPECTED_SIZE ?= 0x383
+KSU_EXPECTED_HASH ?= 64767b5c92a423e71151ad8d1ce748909cb7b54ed977c2cedf4fc6879c0166b9
 
 $(info -- KernelSU Manager package name: $(KSU_PACKAGE_NAME))
 $(info -- KernelSU Manager signature size: $(KSU_EXPECTED_SIZE))
